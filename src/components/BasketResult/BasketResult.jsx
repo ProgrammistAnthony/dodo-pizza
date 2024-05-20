@@ -12,7 +12,7 @@ export const BasketResult = () => {
             <p className={s.wrapper__numb}>4 792 ₽</p>
           </div>
           <div className={s.wrapper__nav}>
-            <Link to={".."}>
+            <Link to={"/dodo-pizza"}>
               <Button CustomClass={s.wrapper__btn}>
                 {
                   <p className={s.text__btn}>
