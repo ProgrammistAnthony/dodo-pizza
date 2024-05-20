@@ -1,0 +1,9 @@
+.Link {
+    font-size: 14px;
+    color: var(--black);
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+        color: var(--orange-corporate);
+    }
+}

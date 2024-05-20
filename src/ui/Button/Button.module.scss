@@ -1,0 +1,37 @@
+.Button {
+    max-width: 104px;
+    height: 40px;
+    background-color: var(--orange-corporate);
+    border-radius: 1000px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    padding: 9px 18px;
+    border: none;
+    &:hover{
+        background-color: var(--orange-dark);
+    }
+    &:active{
+        box-shadow: 0 2px 0 0 inset black;
+    }
+    &__link{
+        padding: 6px 15px;
+        border-radius: 100px;
+        background-color: var(--gray-carporate);
+        text-decoration: none;
+        display: block;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 600;
+        color: var(--footer-color);
+        &:hover{
+            color: var(--orange-dark);
+            background-color: var(--orange-light);
+        }
+        &:active{
+            box-shadow: 0 2px 0 0 inset rgb(95, 94, 94);
+        }   
+    }
+}

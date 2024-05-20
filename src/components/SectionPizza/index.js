@@ -1,0 +1,1 @@
+export {SectionPizza} from './SectionPizza'

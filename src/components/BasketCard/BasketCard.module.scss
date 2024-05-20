@@ -1,0 +1,45 @@
+.BasketCard {
+    &__content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-top: 1px rgba(225, 225, 232, 0.7) inset;
+        border-bottom: 1px rgba(225, 225, 232, 0.7) inset;
+        padding: 25px 0;
+    }
+    &__left{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    &__image{
+        margin-right: 26px;
+    }
+    &__img{
+        width: 64px;
+        height: 64px;
+    }
+    &__right{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 270px;
+        width: 100%;
+    }
+    &__delete{
+
+    }
+}
+.desc{
+    &__title{
+        color: var(--black);
+        font-size: 18px;
+        font-weight: 600;
+    }
+    &__subtitle{
+        color: var(--gray-dark);
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+    }
+}

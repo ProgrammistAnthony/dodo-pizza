@@ -1,0 +1,195 @@
+.Footer {
+    margin-top: 134px;
+    background-color: var(--footer-color);
+    color: #fff;
+    &__content{
+        padding: 50px 0 40px 0;
+        @media (max-width: 500px) {
+            padding: 20px 0 20px 0;
+          }
+    }
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 768px) {
+            flex-direction: column;
+          }
+    }
+    &__links{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        @media (max-width: 500px) {
+            gap: 30px;
+          }
+    }
+    &__setter{
+        display: flex;
+        flex-direction: row;
+    }
+    &__img{
+        max-width: 135px;
+        width: 100%;
+        height: 40px;
+        cursor: pointer;
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        @media (max-width: 768px) {
+            align-items: center;
+            margin-top: 20px;
+          }
+        @media (max-width: 500px) {
+            flex-direction: column-reverse;
+            align-items: start;
+            border-top: 1.6px solid rgba(255, 255, 255, 0.2);
+            border-bottom: 1.6px solid rgba(255, 255, 255, 0.2);
+            margin-top: 20px;    
+            padding-bottom: 20px;;
+        }
+    }
+    &__number{
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 26px; 
+        @media (max-width: 500px) {
+            display: none;
+        }
+    }
+    &____communication{
+        
+    }
+    &__tel{
+        margin-top: 29px;
+    }
+    &__call{
+        font-size: 15px;
+        opacity: 0.5;
+        text-align: end;
+        @media (max-width: 500px) {
+            display: none;
+        }
+    }
+    &__mail{
+        font-size: 15px;
+        margin-top: 26px;
+        text-align: end;
+        display: block;
+        @media (max-width: 768px) {
+            align-items: center;
+            margin: 0 0 20px 0;
+          }
+    }
+    &__mid{
+        display: flex;
+        justify-content: flex-start;
+        margin: 95px 0 40px 0;
+        @media (max-width: 560px) {
+            display: none;
+          }
+    }
+    &__revenue{
+
+    }
+    &__many{
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 26px; 
+    }
+    &__quantity{
+        font-size: 16px;
+        line-height: 22px; 
+        opacity: 0.7;
+        max-width: 299px;
+        margin-top: 12px;
+        margin-right: 156px;
+    }
+    &__quantityTwo{
+        max-width: 241px;
+    }
+    &__hr{
+        width: 100%;
+        height: 1px;
+        opacity: 0.2;
+        @media (max-width: 500px) {
+            display: none;   
+        }
+    }
+    &__botom{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        margin: 45px 0 0 0;
+        @media (max-width: 768px) {
+            flex-direction: column;  
+            gap: 20px; 
+        }
+        @media (max-width: 500px) {
+            flex-direction: column-reverse;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0 0 0;
+        }
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+    }
+    &__subtext{
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: 900;
+        opacity: 0.7;
+        margin-right: 28px;
+    }
+    &__secondaryText{
+        color: #FFF;
+        font-size: 16px;
+        line-height: 22px; 
+        opacity: 0.7;
+    }
+    &__nav{
+        display: flex;
+        @media (max-width: 500px) {
+            flex-direction: column;
+            width: 248px;
+        }
+    }
+    &__link{
+        font-size: 16px;
+        line-height: 22px; 
+        margin-right: 14px;
+        opacity: 0.7;
+        @media (max-width: 500px) {
+            margin: 14px 0 0 0;
+        }
+    }
+    &__icons{
+        display: flex;
+        @media (max-width: 500px) {
+            width: 248px;
+        }
+    }
+    &__box{
+        width: 32px;
+        height: 32px;
+        border-radius: 4px;
+        background: #73798CFF;
+        position: relative;
+        cursor: pointer;
+        margin-right: 6px;
+    }
+    &__icon{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+        left: 50%;
+        bottom: 50%;
+        transform: translateX(-45%) translateY(50%);
+        opacity: 0.3;
+    }
+}

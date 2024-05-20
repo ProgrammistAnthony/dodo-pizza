@@ -1,0 +1,25 @@
+.Ul {
+    list-style-type: none;
+    margin-right: 33px;
+    max-width: 139px;
+    width: 100%;
+  &__p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    @media (max-width: 991px) {
+      margin-top: 20px;  
+    }
+  }
+  &__link {
+    font-size: 18px;
+    line-height: 26px;
+    opacity: 0.7;
+    padding-top: 10px;
+    width: 140px; 
+    cursor: pointer;
+    @media (max-width: 500px) {
+      width: 200px;
+    }
+  }
+}

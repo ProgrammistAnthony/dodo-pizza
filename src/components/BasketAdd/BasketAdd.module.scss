@@ -1,0 +1,26 @@
+.wrapper {
+    &__content {
+      // Ваши стили для внутреннего содержимого
+    }
+    &__title{
+        margin-top: 60px;
+        color: var(-black);
+        font-size: 24px;
+        font-weight: 600;
+    }
+    &__cards {
+      display: flex;
+      flex-direction: row;
+      overflow-x: auto; 
+      -webkit-overflow-scrolling: touch; 
+      margin-right: 16px;
+      flex-wrap: nowrap; 
+  
+      &::-webkit-scrollbar {
+        display: none; 
+      }
+  
+      scrollbar-width: none; 
+    }
+  }
+
